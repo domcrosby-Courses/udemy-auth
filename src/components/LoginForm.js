@@ -5,15 +5,14 @@ export default class LoginForm extends Component {
   state = { text: '' };
 
   render() {
-    return(
+    return (
       <Card>
         <CardSection>
           <Input
             label='Email'
             value={this.state.text}
             onChangeText={text => this.setState({ text })}
-          >
-          </Input>
+          / >
         </CardSection>
         <CardSection />
         <CardSection>
