@@ -1,0 +1,10 @@
+{
+  "extends": "rallycoding",
+  "rules" : {
+    "import/extensions": 0,
+    "import/no-unresolved": 0
+  },
+  "globals": {
+      "fetch": true
+  }
+}
